@@ -1,6 +1,6 @@
 © Chathurika Thilakarathna, 2026.
 
-This repository showcases a GIS-based agricultural land suitability assessment developed for professional and academic portfolio purposes. The project demonstrates spatial analysis, suitability modelling, cartographic design, and GIS workflow development using QGIS.
+_This repository showcases a GIS-based agricultural land suitability assessment developed for professional and academic portfolio purposes. The project demonstrates spatial analysis, suitability modelling, cartographic design, and GIS workflow development using QGIS.
 
 
 # GIS-Based Agricultural Land Suitability Assessment
