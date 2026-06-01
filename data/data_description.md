@@ -65,8 +65,8 @@ Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatia
 
 ```
 data/
-├── aoi_boundary.geojson       # Study area boundary (upload-safe, renders on GitHub)
-└── README.md                  # Points to external data sources
+├── aoi_boundary.geojson       
+└── data_description.md                  
 ```
 
 ---
