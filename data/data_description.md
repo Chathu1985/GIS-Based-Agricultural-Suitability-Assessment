@@ -61,16 +61,6 @@ Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatia
 
 ---
 
-## Data Folder Structure
-
-```
-data/
-├── aoi_boundary.geojson       
-└── data_description.md                  
-```
-
----
-
 ## Reproducing the Dataset
 
 1. Download the Global Land Cover Dataset for your area from [ESA WorldCover](https://esa-worldcover.org/en)
