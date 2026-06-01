@@ -20,7 +20,7 @@ A global land cover classification dataset providing 11 land cover classes, incl
 
 **Preparation:**
 - Clipped to the Area of Interest (AOI) boundary
-- Reprojected to the project CRS prior to analysis
+- Reprojected from WGS 84 (EPSG:4326) to SLD99 / Sri Lanka Grid 1999 (EPSG:5235) for analysis
 
 > **Note:** This dataset is publicly available and must be downloaded directly from the source. It is not included in this repository due to file size and licensing terms.
 
@@ -30,15 +30,15 @@ A global land cover classification dataset providing 11 land cover classes, incl
 
 | Property | Details |
 |---|---|
-| **Format** | Shapefile (`.shp`) |
-| **Coordinate Reference System** | Project CRS |
+| **Format** | Shapefile (`.shp`) / GeoJSON |
+| **Coordinate Reference System** | WGS 84 (EPSG:4326) — reprojected to EPSG:5235 for analysis |
 | **Coverage** | Project study area |
 
 **Description:**
 A polygon boundary defining the spatial extent of the study area. Used to clip the land cover raster and constrain all spatial analysis to the project boundary.
 
 **Preparation:**
-- Reprojected to match the land cover dataset CRS before clipping
+- Reprojected from WGS 84 (EPSG:4326) to SLD99 / Sri Lanka Grid 1999 (EPSG:5235) for analysis
 
 ---
 
@@ -48,14 +48,14 @@ A polygon boundary defining the spatial extent of the study area. Used to clip t
 |---|---|
 | **Source** | [Humanitarian Data Exchange (HDX)](https://data.humdata.org/) |
 | **Format** | Shapefile (`.shp`) |
-| **Coordinate Reference System** | Project CRS |
+| **Coordinate Reference System** | WGS 84 (EPSG:4326) — reprojected to EPSG:5235 for analysis |
 
 **Description:**
 Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatially summarise and compare suitability distribution across administrative units and identify priority areas for agricultural development.
 
 **Preparation:**
-- Clipped to the AOI boundary
-- Used as a zonal layer for statistical summarisation
+- Reprojected from WGS 84 (EPSG:4326) to SLD99 / Sri Lanka Grid 1999 (EPSG:5235) for analysis
+- Clipped to the AOI boundary and used as a zonal layer for statistical summarisation
 
 > **Note:** Boundary data is publicly available via HDX. Search for "Sri Lanka GN Division boundaries" at [data.humdata.org](https://data.humdata.org/).
 
@@ -65,7 +65,7 @@ Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatia
 
 ```
 data/
-├── aoi_boundary.geojson       # Study area boundary 
+├── aoi_boundary.geojson       # Study area boundary (upload-safe, renders on GitHub)
 └── README.md                  # Points to external data sources
 ```
 
