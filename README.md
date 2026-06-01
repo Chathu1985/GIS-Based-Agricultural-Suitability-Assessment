@@ -77,12 +77,14 @@ Suitability categories:
 * Non-Suitable
 
 The reclassification process transformed land cover information into a decision-support layer for agricultural planning.
+![Map of Land Suitability](images/LandCover_Suitability_AOI.png)
 
 ### 4. Priority Area Identification
 
 Highly suitable areas were extracted and summarised by GN Division.
 
 The analysis identified divisions with a greater concentration of highly suitable land, enabling prioritisation of locations for future agricultural initiatives and field investigations.
+![Map of Land Proritisation](images/Highly_Suitable_Areas.png)
 
 ### 5. Statistical Analysis
 
