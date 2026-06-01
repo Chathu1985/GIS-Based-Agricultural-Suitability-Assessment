@@ -96,8 +96,8 @@ Statistical summaries were generated to support interpretation of results, inclu
 * Comparative suitability rankings
 * Area-based summaries
 * Interactive charts and graphical reporting
-[Land Suitability Profile](images/suitability profile.png)
-
+  
+See the [Land Suitability Profile](images/suitability%20profile.png) for statistical details and See the [Cropland Percentage by GN Division](images/crop%.png) for statistical details.
 
 ---
 
