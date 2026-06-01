@@ -42,7 +42,7 @@ A global 30 m resolution land cover dataset was processed and analysed to identi
 ### 1. Data Preparation
 
 * Obtained global land cover raster data.
-* Reprojected the Area of Interest (AOI) to the required coordinate reference system.
+* Reprojected the land cover raster and AOI boundary to Sri Lanka National Grid (SLD99 / EPSG:5235).
 * Spatially clipped the land cover raster to the project boundary.
 * Prepared administrative boundary layers for analysis.
 
