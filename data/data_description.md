@@ -46,7 +46,7 @@ A polygon boundary defining the spatial extent of the study area. Used to clip t
 
 | Property | Details |
 |---|---|
-| **Source** | [Survey Department of Sri Lanka](https://www.survey.gov.lk/) |
+| **Source** | [Humanitarian Data Exchange (HDX)](https://data.humdata.org/) |
 | **Format** | Shapefile (`.shp`) |
 | **Coordinate Reference System** | Project CRS |
 
@@ -57,7 +57,7 @@ Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatia
 - Clipped to the AOI boundary
 - Used as a zonal layer for statistical summarisation
 
-> **Note:** Boundary data may be subject to usage restrictions. Obtain directly from the Survey Department of Sri Lanka or an authorised data provider.
+> **Note:** Boundary data is publicly available via HDX. Search for "Sri Lanka GN Division boundaries" at [data.humdata.org](https://data.humdata.org/).
 
 ---
 
@@ -65,7 +65,7 @@ Administrative boundary layer for Grama Niladhari (GN) Divisions. Used to spatia
 
 ```
 data/
-├── aoi_boundary.geojson       # Study area boundary
+├── aoi_boundary.geojson       # Study area boundary 
 └── README.md                  # Points to external data sources
 ```
 
@@ -74,7 +74,6 @@ data/
 ## Reproducing the Dataset
 
 1. Download the Global Land Cover Dataset for your area from [ESA WorldCover](https://esa-worldcover.org/en)
-2. Obtain GN Division boundaries from the [Survey Department of Sri Lanka](https://www.survey.gov.lk/)
-3. Define AOI boundary and export as Shapefile
+2. Obtain GN Division boundaries from [Humanitarian Data Exchange (HDX)](https://data.humdata.org/)
+3. Define your AOI boundary and export as GeoJSON or Shapefile
 4. Follow the methodology in [`docs/project_report.md`](./project_report.md) for data preparation steps
-
