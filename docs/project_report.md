@@ -44,7 +44,7 @@ This project presents a GIS-based agricultural land suitability assessment to su
 
 ### Data Preparation
 
-The AOI was reprojected to the required coordinate reference system and used to clip the global land cover raster to the project boundary.
+All datasets were sourced in WGS 84 (EPSG:4326) and reprojected to SLD99 / Sri Lanka Grid 1999 (EPSG:5235) to ensure accurate area-based analysis. The AOI boundary was then used to clip the global land cover raster to the project extent.
 
 ### Land Cover Analysis
 
@@ -111,4 +111,3 @@ This project successfully demonstrated a GIS-based workflow for agricultural lan
 - Suitability Modelling & Spatial Statistics
 - Cartographic Design & Decision Support Mapping
 - Power BI Reporting & QGIS Workflow Development
-
