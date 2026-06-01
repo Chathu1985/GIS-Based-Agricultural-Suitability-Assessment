@@ -63,6 +63,7 @@ Classes included:
 * Wetlands
 
 The resulting map provided an overview of existing land resources and land use patterns.
+![Map of Land Cover Classification](images/LandCover_AOI.png)
 
 ### 3. Land Suitability Assessment
 
