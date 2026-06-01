@@ -92,16 +92,23 @@ Statistical summaries were generated to support interpretation of results, inclu
 * Percentage of highly suitable land by GN Division
 * Comparative suitability rankings
 * Area-based summaries
+* Interactive charts and graphical reporting
 
 ---
 
 ## Software Used
 
-* QGIS
-* Raster Analysis Tools
-* Spatial Processing Algorithms
-* Cartographic Layout and Map Design Tools
+### QGIS
+* Raster processing
+* Spatial analysis
+* Suitability modelling
+* Cartographic map production
 
+### Microsoft Power BI 
+* Statistical summaries
+* Data visualization
+* Comparative analysis
+* Dashboard creation
 ---
 
 ## Outputs
@@ -146,6 +153,8 @@ Area calculations, suitability rankings, and comparative analyses supporting dec
 * Cartographic Design
 * Decision Support Mapping
 * QGIS Workflow Development
+* Power BI Reporting
+* Data Visualization
 
 ---
 
