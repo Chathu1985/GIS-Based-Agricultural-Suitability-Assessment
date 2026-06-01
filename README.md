@@ -45,7 +45,7 @@ A global 30 m resolution land cover dataset was processed and analysed to identi
 * Reprojected the land cover raster and AOI boundary to Sri Lanka National Grid (SLD99 / EPSG:5235).
 * Spatially clipped the land cover raster to the project boundary.
 * Prepared administrative boundary layers for analysis.
-
+See the [project workflow diagram](images/Diagram.png) for full details.
 ### 2. Land Cover Classification
 
 The clipped raster was analysed to identify dominant land cover classes within the study area.
@@ -96,6 +96,8 @@ Statistical summaries were generated to support interpretation of results, inclu
 * Comparative suitability rankings
 * Area-based summaries
 * Interactive charts and graphical reporting
+[Land Suitability Profile](images/suitability profile.png)
+
 
 ---
 
